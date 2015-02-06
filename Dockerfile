@@ -1,5 +1,5 @@
 FROM miiton/ubuntu:14.10
-MAINTAINER Takahiro MINAMI <vo.gu.ba.miiton@gmail.com>
+MAINTAINER miiton
 
 RUN apt-get update \
  && apt-get install -y mysql-client \
